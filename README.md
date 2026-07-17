@@ -4,7 +4,7 @@
 
 線上預覽：<https://roomlist-website.vercel.app/>
 
-[![RoomList 網站截圖](docs/screenshot.png)](https://roomlist-website.vercel.app/)
+![RoomList 網站截圖](docs/screenshot.png)
 
 ## 這個網站是什麼
 
