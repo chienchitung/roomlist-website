@@ -2,6 +2,8 @@
 
 [RoomList](https://github.com/chienchitung/room-wishlist-extension) 官方介紹網站——一個免費、開源的 Chrome 擴充功能，能把分散在不同電商網站的家具收藏，整理成一份依空間分類的採購清單。本 repository 是該擴充功能的行銷／說明網站，以 Next.js 打造並部署在 Vercel。
 
+![RoomList 網站截圖](docs/screenshot.png)
+
 ## 這個網站是什麼
 
 RoomList 讓使用者在逛 IKEA、宜得利、特力屋等家居電商時，一鍵把喜歡的商品加入共用清單，不必再開十幾個分頁比對。本網站說明它的功能、使用方式與支援的網站，並提供安裝連結與隱私權政策頁。
