@@ -27,7 +27,7 @@ export default function PrivacyPage() {
         <section><span>06</span><div><h2>資料使用限制</h2><p>RoomList 對使用者資料的使用遵循 Chrome Web Store User Data Policy，包括 Limited Use 規定。資料不會被轉售、不會用於個人化廣告，也不會允許人工閱讀，除非使用者為取得支援而明確提供特定資料，或法律另有要求。</p></div></section>
         <section><span>07</span><div><h2>政策變更與聯絡</h2><p>若資料處理方式有實質變更，RoomList 會先在擴充功能介面中明確揭露，並在需要時重新取得同意。隱私相關問題可透過 Chrome Web Store 商品頁所列的開發者支援管道聯絡。</p></div></section>
       </article>
-      <footer><div className="wrap footer-grid"><Link className="brand footer-brand" href="/"><img src="/logo-lockup.svg" alt="RoomList" /></Link><p>本政策適用於 RoomList Chrome 擴充功能。</p><div><Link href="/">返回首頁</Link><a href="https://github.com/chienchitung/room-wishlist-extension" target="_blank" rel="noreferrer">GitHub</a></div></div></footer>
+      <footer><div className="wrap footer-grid"><Link className="brand footer-brand" href="/"><img src="/logo-lockup.svg" alt="RoomList" /></Link><p>獨立開發的開源工具，與支援的電商品牌皆無隸屬、合作、贊助或授權關係。</p><div><Link href="/">返回首頁</Link><a href="https://github.com/chienchitung/room-wishlist-extension" target="_blank" rel="noreferrer">GitHub</a></div></div></footer>
       <BackToTop />
     </main>
   );
