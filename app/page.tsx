@@ -44,7 +44,7 @@ export default function Home() {
             <h1><span className="hero-title-line">把不同網站的家具，</span><span className="hero-title-line">收進同一份採購清單</span></h1>
             <p className="hero-home-lead">逛 IKEA、宜得利、特力屋等網站時，一鍵收藏商品；再依客廳、臥室等空間分類，自動加總預算。</p>
             <div className="hero-home-actions">
-              <a className="button primary" href="https://github.com/chienchitung/room-wishlist-extension/releases" target="_blank" rel="noreferrer">取得 RoomList</a>
+              <a className="button primary" href="https://chromewebstore.google.com/detail/roomlist-%E7%A9%BA%E9%96%93%E6%8E%A1%E8%B3%BC%E6%B8%85%E5%96%AE/chlibjdbnbcjldofldfgihheemmcihip?hl=zh-TW" target="_blank" rel="noreferrer">取得 RoomList</a>
               <a className="hero-secondary" href="#how">先看怎麼使用</a>
             </div>
             <div className="hero-proof" aria-label="產品特色">
@@ -76,7 +76,7 @@ export default function Home() {
       </section>
 
       <section id="support" className="section support">
-        <div className="wrap support-grid"><div><h2>跨網站收藏，<br />不被單一平台綁住</h2><p className="support-copy">RoomList 支援台灣常用家居與綜合電商。商品會保留來源標籤與連結，回頭比價或下單更容易。</p><a className="text-link dark-link" href="https://github.com/chienchitung/room-wishlist-extension#支援網站" target="_blank" rel="noreferrer">查看完整支援說明</a></div>
+        <div className="wrap support-grid"><div><h2>跨網站收藏，<br />不被單一平台綁住</h2><p className="support-copy">RoomList 支援台灣常用家居與綜合電商。商品會保留來源標籤與連結，回頭比價或下單更容易。</p></div>
           <div className="store-cloud">{stores.map((store) => <span key={store} className="active">{store}</span>)}</div></div>
       </section>
 
@@ -86,7 +86,7 @@ export default function Home() {
         <div className="wrap faq-layout">
           <div className="faq-intro"><h2>開始使用前，<br />你可能想知道</h2><p>關於安裝、支援網站、資料保存與商品價格的常見問題。</p></div>
           <div className="faq-content">
-            <details open><summary>RoomList 要怎麼安裝？</summary><div><p>目前可從 GitHub 下載專案，在 Chrome 擴充功能頁開啟「開發人員模式」，再選擇「載入未封裝項目」。安裝完成後，前往支援的商品頁即可使用。</p></div></details>
+            <details open><summary>RoomList 要怎麼安裝？</summary><div><p>前往 <a href="https://chromewebstore.google.com/detail/roomlist-%E7%A9%BA%E9%96%93%E6%8E%A1%E8%B3%BC%E6%B8%85%E5%96%AE/chlibjdbnbcjldofldfgihheemmcihip?hl=zh-TW" target="_blank" rel="noreferrer">Chrome 線上應用程式商店的 RoomList 頁面</a>，點擊「加到 Chrome」即可完成安裝。安裝完成後，前往支援的商品頁即可使用。</p></div></details>
             <details><summary>所有支援網站都能從列表頁加入商品嗎？</summary><div><p>IKEA、PChome 24h、momo、宜得利、特力屋、MR.LIVING 與 hoi! 好好生活支援商品頁及列表／分類頁。淘寶、天貓、蝦皮與酷澎目前支援從單一商品頁加入。</p></div></details>
             <details><summary>商品資料會上傳到伺服器嗎？</summary><div><p>不會。清單與設定使用 Chrome 的本機儲存空間，RoomList 沒有開發者後端伺服器。完整說明可查看隱私權政策頁面。</p></div></details>
             <details><summary>電商改版後，按鈕無法使用怎麼辦？</summary><div><p>如果網站原本的收藏按鈕暫時無法辨識，可以改用商品頁右下角的「加入採購清單」按鈕。</p></div></details>
