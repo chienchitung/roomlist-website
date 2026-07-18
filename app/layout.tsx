@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
-const siteUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
-  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-  : "https://roomlist-space-shopping.jack0703123.chatgpt.site";
+import { siteUrl } from "./site-config";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -12,6 +9,7 @@ export const metadata: Metadata = {
   icons: { icon: "/icon128.png", shortcut: "/icon128.png" },
   openGraph: { title: "RoomList｜跨電商空間採購清單", description: "收藏家具・整理空間・掌握預算", images: [{ url: "/og.png", width: 1200, height: 630 }] },
   twitter: { card: "summary_large_image", title: "RoomList｜跨電商空間採購清單", description: "收藏家具・整理空間・掌握預算", images: ["/og.png"] },
+  verification: { google: "q60w5BjT-oed-8P3S-0JFXrqnTQmU2LbyEefrPoQqEQ" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
